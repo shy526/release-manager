@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @author qing
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { ProjectReleaseManagerApplication.class})
+@ContextConfiguration(classes = { ReleaseManagerApplication.class})
 public class ProjectReleaseManagerTest {
 
 }

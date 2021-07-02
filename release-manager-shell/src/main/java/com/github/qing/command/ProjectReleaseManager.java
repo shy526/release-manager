@@ -1,4 +1,4 @@
-package com.github.qing.component;
+package com.github.qing.command;
 
 import com.github.qing.config.MidwayProvider;
 import com.github.qing.dubbo.DubboManager;
@@ -20,8 +20,6 @@ public class ProjectReleaseManager {
     private MidwayProvider myInputProvider;
     @Autowired
     private DubboManager dubboManager;
-    @Autowired
-    private ApplicationContext applicationContext;
 
     @ShellMethod("发布war")
     public String releaseWar(String args) {

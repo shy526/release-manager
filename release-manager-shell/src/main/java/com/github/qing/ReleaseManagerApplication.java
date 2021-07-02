@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author qing
  */
 @SpringBootApplication
-public class ProjectReleaseManagerApplication {
+public class ReleaseManagerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProjectReleaseManagerApplication.class, args);
+        SpringApplication.run(ReleaseManagerApplication.class, args);
     }
 
 }

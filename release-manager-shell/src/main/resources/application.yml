@@ -21,22 +21,4 @@ spring:
         enabled: false
       stacktrace:
         enabled: false
-    interactive:
-      enabled: false
 
-dubbo:
-  protocol:
-    name: dubbo
-    port: 7777
-  registry:
-    address: zookeeper://127.0.0.1:2181
-  provider:
-    group: relesase
-    version: "1.0.0"
-    timeout: 30000
-  consumer:
-    version: "1.0.0"
-    group: relesase
-    timeout: 30000
-  scan:
-    base-packages: com.github.sunjiaqing.dubbo

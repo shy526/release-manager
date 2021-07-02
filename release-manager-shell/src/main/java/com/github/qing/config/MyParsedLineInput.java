@@ -1,4 +1,4 @@
-package com.github.sunjiaqing.config;
+package com.github.qing.config;
 
 import org.jline.reader.ParsedLine;
 import org.springframework.shell.Input;

@@ -1,4 +1,4 @@
-package com.github.sunjiaqing.dubbo;
+package com.github.qing.dubbo;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

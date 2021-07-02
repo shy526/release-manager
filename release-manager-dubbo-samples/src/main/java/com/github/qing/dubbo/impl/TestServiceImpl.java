@@ -1,8 +1,8 @@
-package com.github.sunjiaqing.dubbo.impl;
+package com.github.qing.dubbo.impl;
 
-import com.github.sunjiaqing.dubbo.OrdertService;
-import com.github.sunjiaqing.dubbo.ProductService;
-import com.github.sunjiaqing.dubbo.TestService;
+import com.github.qing.dubbo.OrdertService;
+import com.github.qing.dubbo.ProductService;
+import com.github.qing.dubbo.TestService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Autowired;

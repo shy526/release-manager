@@ -1,4 +1,4 @@
-package com.github.sunjiaqing;
+package com.github.qing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author qing
  */
 @SpringBootApplication
-public class ProjectReleaseManagerApplication {
+public class ReleaseManagerDubbboSamplesApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProjectReleaseManagerApplication.class, args);
+        SpringApplication.run(ReleaseManagerDubbboSamplesApplication.class, args);
     }
 
 }

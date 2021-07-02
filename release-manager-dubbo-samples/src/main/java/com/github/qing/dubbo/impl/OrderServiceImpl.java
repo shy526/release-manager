@@ -1,6 +1,6 @@
-package com.github.sunjiaqing.dubbo.impl;
+package com.github.qing.dubbo.impl;
 
-import com.github.sunjiaqing.dubbo.OrdertService;
+import com.github.qing.dubbo.OrdertService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 @DubboService

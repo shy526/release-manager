@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>release-manager</artifactId>
-    <groupId>com.github.sunjiaqing</groupId>
+    <groupId>com.github.qing</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <artifactId>release-manager-dubbo-samples</artifactId>

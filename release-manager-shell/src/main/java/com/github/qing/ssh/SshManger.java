@@ -1,4 +1,4 @@
-package com.github.sunjiaqing.ssh;
+package com.github.qing.ssh;
 
 /**
  * @author qing

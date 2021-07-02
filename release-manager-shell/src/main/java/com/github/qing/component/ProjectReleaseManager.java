@@ -1,9 +1,7 @@
-package com.github.sunjiaqing.component;
+package com.github.qing.component;
 
-import com.github.sunjiaqing.config.MidwayProvider;
-import com.github.sunjiaqing.dubbo.DubboManager;
-import com.github.sunjiaqing.dubbo.TestService;
-import org.apache.dubbo.config.annotation.DubboReference;
+import com.github.qing.config.MidwayProvider;
+import com.github.qing.dubbo.DubboManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.shell.standard.ShellCommandGroup;
@@ -11,7 +9,7 @@ import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
 /**
- * @author sjq
+ * @author qing
  */
 @ShellComponent
 @ShellCommandGroup("dubbo")
@@ -24,8 +22,6 @@ public class ProjectReleaseManager {
     private DubboManager dubboManager;
     @Autowired
     private ApplicationContext applicationContext;
-    @DubboReference
-    private TestService testService;
 
     @ShellMethod("发布war")
     public String releaseWar(String args) {
@@ -34,7 +30,7 @@ public class ProjectReleaseManager {
 
     @ShellMethod("发布Jar")
     public String releaseJar(String args) {
-        return "You said "+testService.sayHello();
+        return "You said "+args;
     }
 
 

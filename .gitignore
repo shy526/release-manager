@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/free-mybatis-generator-config.xml
+.idea/inspectionProfiles/
+.idea/jarRepositories.xml
+.idea/misc.xml
+project-release-manager.iml

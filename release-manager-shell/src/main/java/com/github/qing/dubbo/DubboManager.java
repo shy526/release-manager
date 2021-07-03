@@ -28,7 +28,7 @@ public class DubboManager {
     }
 
     public void selectServicesByIp(String host, String token, String ip) {
-        Map<String, String> header = buildAuthorization(token);
+        Map<String, String> header = tokenHeader(token);
         HttpResult httpResult = httpClientService.get(host + String.format(SERVICES_BY_IP, ip, 1), null, header);
         JSONObject result = JSON.parseObject(httpResult.getEntityStr());
         Integer totalElements = result.getInteger("totalElements");
@@ -37,7 +37,7 @@ public class DubboManager {
         System.out.println("result = " + result);
     }
 
-    private Map<String, String> buildAuthorization(String token) {
+    private Map<String, String> tokenHeader(String token) {
         Map<String, String> result = new HashMap<>();
         result.put(AUTHORIZATION, token);
         return result;
